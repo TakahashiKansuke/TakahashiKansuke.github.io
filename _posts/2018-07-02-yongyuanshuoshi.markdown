@@ -4,8 +4,7 @@ title:      "崔永元：我抓到了谋杀中兴和华为的凶手"
 subtitle:   ""
 date:       2018-07-02 9:00:00
 author:     "HanLu"
-header-img: "post-bg-yongyuanshuoshi.jpeg"
-catalog: true
+header-img: "post-bg-yongyuanshuoshi.jpg"
 tags:
     - 生活
 ---
