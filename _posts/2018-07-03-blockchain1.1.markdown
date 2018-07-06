@@ -5,6 +5,10 @@ subtitle:   "区块链技术的核心概念和原理（一）"
 date:       2018-07-03 09:00:00
 author:     "HanLu"
 header-img: "img/post-blockchain-1.1.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - 区块链
 ---
 
 ## 区块链的前世今生
