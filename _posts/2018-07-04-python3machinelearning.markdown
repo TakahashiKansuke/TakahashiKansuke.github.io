@@ -21,7 +21,7 @@ tags:
 
 > 数据集：Scikit-learn中内置的数据集或通过Scikit-learn可以直接下载的数据集，MNIST数据集
 
-'''
+```
 {
  "cells": [
   {
@@ -69,4 +69,4 @@ tags:
  "nbformat": 4,
  "nbformat_minor": 2
 }
-'''
+```
