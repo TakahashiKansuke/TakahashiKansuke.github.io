@@ -21,15 +21,11 @@ tags:
 
 > 数据集：Scikit-learn中内置的数据集或通过Scikit-learn可以直接下载的数据集，MNIST数据集
 
-### 数据
-
-![](/img/in-post/post-python3machinelearning-1/post-python3machinelearning-1.1.jpg)
-
 ## 监督学习
 
 给机器的训练数据拥有“标记”或者“答案” （分类，回归）
 
-
+![](/img/in-post/post-python3machinelearning-1/post-python3machinelearning-1.1.jpg)
 
  k近邻，线性回归和多项式回归，逻辑回归，SVM，决策树和随机森林
  
