@@ -165,4 +165,67 @@ Up : 光标上移或转入上一单元
 
 Down :光标下移或转入下一单元
 
+# Jupyter Notebook 的魔法命令
+
+* %run *.py
+
+使用此命令运行外部python文件（默认是当前目录，最好加上绝对路径）
+
+* %time statement
+
+用此命令计算statement的运行时间
+
+* %timeit statement
+
+用此命令计算statement的平均运行时间，timeit会多次运行statement，最后得到一个更为精准的预期运行时间。
+
+%time一般用于耗时长的代码段，%timeit一般用于耗时短的代码段。
+
+* lsmagic 列出所有魔法命令 
+
+## numpy.array
+
+NumPy是Python语言的一个扩充程序库。支持高级大量的维度数组与矩阵运算，此外也针对数组运算提供大量的数学函数库。Numpy内部解除了Python的PIL(全局解释器锁),运算效率极好,是大量机器学习框架的基础库!
+
+Python的List不要求存储同样的类型，带来效率问题。
+
+array的缺点是没有将数据当做向量或者矩阵，不支持基本运算。
+
+* Numpy简单创建数组
+
+```python
+import numpy as np
+# 创建简单的列表
+a = [1, 2, 3, 4]
+# 将列表转换为数组
+b = np.array(b)
+```
+
+* Numpy查看数组属性
+
+数组元素个数'b.size'
+
+数组形状'b.shape'
+
+数组维度'b.ndim'
+
+数组元素类型'b.dtype'
+
+* 快速创建N维数组的api函数
+
+创建10行10列的数值为浮点1的矩阵'array_one = np.ones([10, 10])'
+
+创建10行10列的数值为浮点0的矩阵'array_zero = np.zeros([10, 10])'
+
+从现有的数据创建数组: array(深拷贝)，asarray(浅拷贝)
+
+* Numpy创建随机数组'np.random'
+
+均匀分布
+
+'np.random.rand(10, 10)' 创建指定形状(示例为10行10列)的数组(范围在0至1之间)
+
+'np.random.uniform(0, 100)'创建指定范围内的一个数
+
+'np.random.randint(0, 100)' 创建指定范围内的一个整数
 
