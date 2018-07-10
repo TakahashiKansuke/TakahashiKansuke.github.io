@@ -203,29 +203,31 @@ b = np.array(b)
 
 * Numpy查看数组属性
 
-数组元素个数'b.size'
+数组元素个数`b.size`
 
-数组形状'b.shape'
+数组形状`b.shape`
 
-数组维度'b.ndim'
+数组维度`b.ndim`
 
-数组元素类型'b.dtype'
+数组元素类型`b.dtype`
 
 * 快速创建N维数组的api函数
 
-创建10行10列的数值为浮点1的矩阵'array_one = np.ones([10, 10])'
+创建10行10列的数值为浮点1的矩阵`array_one = np.ones([10, 10])`
 
-创建10行10列的数值为浮点0的矩阵'array_zero = np.zeros([10, 10])'
+创建10行10列的数值为浮点0的矩阵`array_zero = np.zeros([10, 10])`
 
 从现有的数据创建数组: array(深拷贝)，asarray(浅拷贝)
 
-* Numpy创建随机数组'np.random'
+* Numpy创建随机数组`np.random`
 
 均匀分布
 
-'np.random.rand(10, 10)' 创建指定形状(示例为10行10列)的数组(范围在0至1之间)
+`np.random.rand(10, 10)` 创建指定形状(示例为10行10列)的数组(范围在0至1之间)
 
-'np.random.uniform(0, 100)'创建指定范围内的一个数
+`np.random.uniform(0, 100)` 创建指定范围内的一个数
 
-'np.random.randint(0, 100)' 创建指定范围内的一个整数
+`np.random.randint(0, 100)` 创建指定范围内的一个整数
+
+
 
