@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "Python高效编程技巧实战"
+subtitle:   "第一部分：数据结构与算法进阶"
+date:       2018-07-10 9:00:00
+author:     "HanLu"
+header-img: "img/post-bg-rwd.jpg"
+header-mask: 0.3
+catalog:    true
+tags:
+    - Python
+---
+
+> 这篇博文将会详细总结之前学过的各种Python开发技巧，分为8部分涵盖50个Python个领域开发及面试常见问题，每个任务先提出问题，然后分析问题、并总结出高效的解决办法。
+
+> 语言：Python 2/3
+
+> 开发环境：
+> 操作系统：ubuntu，文本编辑器：vim，解释器：ipython
+
