@@ -4,7 +4,7 @@ title:      "深度学习之神经网络算法原理与实战"
 subtitle:   "CNN/RNN/GAN"
 date:       2018-09-18
 author:     "HanLu"
-header-img: "post-bg-os-metro.jpg"
+header-img: "img/post-bg-os-metro.jpg"
 tags:
     - 深度学习
     - 神经网络
